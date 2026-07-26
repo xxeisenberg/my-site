@@ -1,0 +1,29 @@
+/* --- FONTS --- */
+.instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.instrument-serif-regular-italic {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.quintessential-regular {
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+video {
+  position: fixed;
+  top: -1%;
+  left: -1%;
+  width: 105%;
+  max-width: 105%;
+  z-index: -1;
+  object-fit: cover;
+  filter: grayscale(92%) blur(5px);
+}
