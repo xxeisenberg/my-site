@@ -17,35 +17,44 @@
     <video src="/bg.mp4" autoplay muted loop></video>
 
     <div
-      class="instrument-serif-regular flex justify-center mt-50 flex-col pl-50"
+      class="instrument-serif-regular flex justify-center mt-24 md:mt-50 flex-col px-6 md:pl-50"
     >
-      <span class="text-xl text-red-500 instrument-serif-regular-italic"
-        >Hey I'm,</span
+      <span
+        class="text-lg md:text-xl text-red-500 instrument-serif-regular-italic"
       >
+        Hey I'm,
+      </span>
+
       <div class="flex items-center">
-        <h1 class="text-9xl text-gray-200">Jaideep</h1>
-        <span class="text-7xl text-red-500">.</span>
+        <h1 class="text-6xl sm:text-7xl md:text-9xl text-gray-200 leading-none">
+          Jaideep
+        </h1>
+        <span class="text-5xl sm:text-6xl md:text-7xl text-red-500">.</span>
       </div>
     </div>
 
-    <section class="flex justify-center mt-5 flex-col pl-50">
+    <section class="flex justify-center mt-5 flex-col px-6 md:pl-50 md:pr-0">
       <div class="instrument-serif-regular text-white">
-        <p class="text-xl">
+        <p class="text-lg md:text-xl max-w-2xl">
           I am a 16 yo from India who loves building websites and CLI tools.
         </p>
       </div>
     </section>
 
-    <section class="flex justify-center mt-64 flex-col">
+    <section class="flex justify-center mt-28 md:mt-64 flex-col">
       <span
-        class="quintessential-regular text-4xl text-gray-200 underline pl-50"
-        >Things I have built</span
+        class="quintessential-regular text-3xl md:text-4xl text-gray-200 underline px-6 md:pl-50 md:pr-0"
       >
-      <div class="flex gap-8 mt-8 flex-wrap justify-center">
+        Things I have built
+      </span>
+
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8 mt-8 px-6 md:px-8"
+      >
         <a
           href="https://github.com/xxeisenberg/jd-launcher"
           target="_blank"
-          class="group w-[400px] rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl p-6 transition-all duration-300 hover:-translate-y-2 hover:border-red-500/40 hover:bg-white/8"
+          class="group w-full max-w-[400px] rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl p-6 transition-all duration-300 md:hover:-translate-y-2 hover:border-red-500/40 hover:bg-white/8"
         >
           <div
             class="h-52 rounded-2xl bg-gradient-to-br from-zinc-800 to-zinc-900 overflow-hidden"
@@ -78,7 +87,7 @@
         <a
           href="https://github.com/xxeisenberg/sudoku"
           target="_blank"
-          class="group w-[400px] rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl p-6 transition-all duration-300 hover:-translate-y-2 hover:border-red-500/40 hover:bg-white/8"
+          class="group w-full max-w-[400px] rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl p-6 transition-all duration-300 md:hover:-translate-y-2 hover:border-red-500/40 hover:bg-white/8"
         >
           <div
             class="h-52 rounded-2xl bg-gradient-to-br from-zinc-800 to-zinc-900 overflow-hidden"
@@ -111,7 +120,7 @@
         <a
           href="https://github.com/xxeisenberg/drop"
           target="_blank"
-          class="group w-[400px] rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl p-6 transition-all duration-300 hover:-translate-y-2 hover:border-red-500/40 hover:bg-white/8"
+          class="group w-full max-w-[400px] rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl p-6 transition-all duration-300 md:hover:-translate-y-2 hover:border-red-500/40 hover:bg-white/8"
         >
           <div
             class="h-52 rounded-2xl bg-gradient-to-br from-zinc-800 to-zinc-900 overflow-hidden"
@@ -144,7 +153,7 @@
         <a
           href="https://github.com/xxeisenberg/x44"
           target="_blank"
-          class="group w-[400px] rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl p-6 transition-all duration-300 hover:-translate-y-2 hover:border-red-500/40 hover:bg-white/8"
+          class="group w-full max-w-[400px] rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl p-6 transition-all duration-300 md:hover:-translate-y-2 hover:border-red-500/40 hover:bg-white/8"
         >
           <div
             class="h-52 rounded-2xl bg-gradient-to-br from-zinc-800 to-zinc-900 overflow-hidden"
@@ -174,42 +183,47 @@
     </section>
 
     <section class="mt-40">
-      <div class="flex justify-center flex-col pl-50 pr-50">
-        <span class="quintessential-regular text-4xl text-gray-200 underline"
-          >Things I Enjoy</span
+      <div class="flex justify-center flex-col px-6 md:px-50">
+        <span
+          class="quintessential-regular text-3xl md:text-4xl text-gray-200 underline"
         >
-        <div class="flex justify-between">
-          <div class="flex flex-col">
-            <img src="music.svg" class="min-h-40" />
+          Things I Enjoy
+        </span>
+
+        <div
+          class="grid grid-cols-2 md:grid-cols-4 gap-y-10 gap-x-6 mt-10 justify-items-center"
+        >
+          <div class="flex flex-col items-center">
+            <img src="music.svg" class="h-24 md:min-h-40" />
             <div
-              class="text-4xl instrument-serif-regular text-white text-center"
+              class="text-2xl md:text-4xl instrument-serif-regular text-white text-center mt-3"
             >
               Music
             </div>
           </div>
-          <div class="border-l-2 h-[200px] text-gray-700"></div>
-          <div class="flex flex-col">
-            <img src="coding.svg" class="min-h-40" />
+
+          <div class="flex flex-col items-center">
+            <img src="coding.svg" class="h-24 md:min-h-40" />
             <div
-              class="text-4xl instrument-serif-regular text-white text-center"
+              class="text-2xl md:text-4xl instrument-serif-regular text-white text-center mt-3"
             >
               Coding
             </div>
           </div>
-          <div class="border-l-2 h-[200px] text-gray-700"></div>
-          <div class="flex flex-col">
-            <img src="chess.svg" class="min-h-40" />
+
+          <div class="flex flex-col items-center">
+            <img src="chess.svg" class="h-24 md:min-h-40" />
             <div
-              class="text-4xl instrument-serif-regular text-white text-center"
+              class="text-2xl md:text-4xl instrument-serif-regular text-white text-center mt-3"
             >
               Chess
             </div>
           </div>
-          <div class="border-l-2 h-[200px] text-gray-700"></div>
-          <div class="flex flex-col">
-            <img src="calisthenics.svg" class="min-h-40" />
+
+          <div class="flex flex-col items-center">
+            <img src="calisthenics.svg" class="h-24 md:min-h-40" />
             <div
-              class="text-4xl instrument-serif-regular text-white text-center"
+              class="text-2xl md:text-4xl instrument-serif-regular text-white text-center mt-3"
             >
               Calisthenics
             </div>
@@ -219,32 +233,33 @@
     </section>
 
     <section class="pb-20">
-      <div class="flex justify-center flex-col pl-50 pr-50 mt-40">
+      <div class="flex justify-center flex-col px-6 md:px-50 mt-40">
         <div class="rounded-3xl bg-white/5 backdrop-blur-xl p-6">
-          <div class="flex justify-between">
+          <div
+            class="flex flex-col gap-8 md:flex-row md:justify-between md:items-center"
+          >
             <span
-              class="quintessential-regular text-4xl text-gray-200 underline"
-              >Get in touch</span
+              class="quintessential-regular text-3xl md:text-4xl text-gray-200 underline"
             >
-            <div class="flex gap-20">
-              <div>
-                <a href="mailto:sanesamurai@proton.me">
-                  <div
-                    class="text-4xl instrument-serif-regular text-white text-center hover:underline"
-                  >
-                    Email
-                  </div>
-                </a>
-              </div>
-              <div>
-                <a href="https://github.com/xxeisenberg">
-                  <div
-                    class="text-4xl instrument-serif-regular text-white text-center hover:underline"
-                  >
-                    Github
-                  </div>
-                </a>
-              </div>
+              Get in touch
+            </span>
+
+            <div class="flex flex-col sm:flex-row gap-6 sm:gap-10 md:gap-20">
+              <a href="mailto:sanesamurai@proton.me">
+                <div
+                  class="text-2xl md:text-4xl instrument-serif-regular text-white text-center hover:underline"
+                >
+                  Email
+                </div>
+              </a>
+
+              <a href="https://github.com/xxeisenberg">
+                <div
+                  class="text-2xl md:text-4xl instrument-serif-regular text-white text-center hover:underline"
+                >
+                  Github
+                </div>
+              </a>
             </div>
           </div>
         </div>
